@@ -10,8 +10,8 @@ android {
         applicationId = "ar.jornadas"
         minSdk = 26
         targetSdk = 34
-        versionCode = 12
-        versionName = "1.2"
+        versionCode = 13
+        versionName = "1.3"
     }
     buildFeatures { compose = true }
     composeOptions { kotlinCompilerExtensionVersion = "1.5.14" }
@@ -34,4 +34,5 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.1")
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
